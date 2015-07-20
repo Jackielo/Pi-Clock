@@ -6,7 +6,7 @@ from pyowm import OWM
 
 owm = OWM(API_key=None, version='2.5', config_module=None, language=None)
 
-FILE = "http://www.kingbob.org/todo.txt"
+FILE = "FILE LINK"
 
 root = Tk()
 root.geometry('{}x{}'.format(320, 240))
