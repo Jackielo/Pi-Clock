@@ -13,6 +13,7 @@ Pyowm: https://github.com/csparpa/pyowm
 
 Httplib2: https://github.com/jcgregorio/httplib2
 
+Font used: Digital-7
 
 
 As the name says it's a Clock, but it also syncs with a txt file located on my webserver, which it then reads the content and displays it on the screen. This is done with Httplib2.
