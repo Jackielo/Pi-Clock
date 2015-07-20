@@ -8,10 +8,12 @@ Internet access also required for some functions to work.
 This program is written with Python 3.2 with the Tkinter, Pyowm and httplib2 plugins.
 
 Tkinter is built in with Python.
+
 Pyowm: https://github.com/csparpa/pyowm
+
 Httplib2: https://github.com/jcgregorio/httplib2
 
-Ad the name says it's a Clock, but it also syncs with a txt file located on my webserver, which it then reads the content and displays it on the screen. This is done with Httplib2
+Ad the name says it's a Clock, but it also syncs with a txt file located on my webserver, which it then reads the content and displays it on the screen. This is done with Httplib2.
 
 The contents of the file is structured accordingly.
 
