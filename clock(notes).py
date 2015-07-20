@@ -3,7 +3,7 @@ import time
 import string
 import httplib2
 
-FILE = "http://www.kingbob.org/todo.txt"
+FILE = "FILE_LINK"
 
 root = Tk()
 root.geometry('{}x{}'.format(320, 240))
