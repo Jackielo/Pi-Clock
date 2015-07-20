@@ -25,7 +25,7 @@ default = 0
 def update():
     global default
     if default == 0:
-        FILE = "http://www.kingbob.org/todo.txt"
+        FILE = "FILE LINK"
         h = httplib2.Http(".cache")
         headers, content = h.request(FILE)
         wtf2 = content.decode().replace('\\n', '\n')
