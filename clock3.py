@@ -36,7 +36,7 @@ def update():
     else:
         global n
         n += 1
-        r = requests.get('https://api.forecast.io/forecast/80880d12ade6f9490da4d06a21c1074c/53.4519,-6.1987?units=si')
+        r = requests.get('API LINK')
         w_dict = r.json()
         status = w_dict["currently"]["summary"] + ', ' + str(w_dict["currently"]["temperature"]) + '°C' + '\n\nMax: ' \
                  + str(w_dict["daily"]["data"][0]["temperatureMax"]) + '°C Min: ' + str(w_dict["daily"]["data"][0]["temperatureMin"]) + '°C ' \
